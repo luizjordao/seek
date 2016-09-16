@@ -1,0 +1,14 @@
+{
+	"Customer": 
+		{
+			"Id": "unilever"
+		},
+  "Skus": 
+  [
+    { "Id": "classic" },
+    { "Id": "classic" },
+    { "Id": "classic" },
+    { "Id": "premium" }
+  ]
+	
+}

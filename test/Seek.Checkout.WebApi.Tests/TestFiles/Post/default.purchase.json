@@ -1,0 +1,12 @@
+{
+	"Customer": 
+		{
+			"Id": "default"
+		},
+  "Skus": 
+  [
+    { "Id": "classic" },
+    { "Id": "standout" },
+    { "Id": "premium" }
+  ]	
+}

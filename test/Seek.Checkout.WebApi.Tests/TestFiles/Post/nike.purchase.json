@@ -1,0 +1,14 @@
+{
+	"Customer": 
+		{
+			"Id": "nike"
+		},
+  "Skus": 
+  [
+    { "Id": "premium" },
+    { "Id": "premium" },
+    { "Id": "premium" },
+    { "Id": "premium" }
+  ]
+	
+}

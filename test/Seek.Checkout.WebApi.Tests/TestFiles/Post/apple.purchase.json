@@ -1,0 +1,14 @@
+{
+	"Customer": 
+		{
+			"Id": "apple"
+		},
+  "Skus": 
+  [
+    { "Id": "standout" },
+    { "Id": "standout" },
+    { "Id": "standout" },
+    { "Id": "premium" }
+  ]
+	
+}

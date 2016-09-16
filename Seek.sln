@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seek.Checkout.WebApi", "src\seek.Checkout.WebApi\Seek.Checkout.WebApi.csproj", "{5741CBB2-819F-480E-862D-8FA667348031}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D99B2687-B99B-4624-864D-720929C0B169}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seek", "src\Seek\Seek.csproj", "{1BACA449-1F7D-4A3F-80C6-C1BB26DBEA0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BC393A41-C888-4E07-902E-86820ECDB236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seek.Checkout.WebApi.Tests", "test\Seek.Checkout.WebApi.Tests\Seek.Checkout.WebApi.Tests.csproj", "{05515D26-3BB2-4A8F-B65E-E7A1A194EF6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{0AD43A3D-D6B6-48B5-8F6A-4A84C2E15082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seek.Migrations", "Migrations\Seek.Migrations\Seek.Migrations.csproj", "{33C228D4-F676-4663-8895-5F5D0CFCEA15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5741CBB2-819F-480E-862D-8FA667348031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5741CBB2-819F-480E-862D-8FA667348031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5741CBB2-819F-480E-862D-8FA667348031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5741CBB2-819F-480E-862D-8FA667348031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BACA449-1F7D-4A3F-80C6-C1BB26DBEA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BACA449-1F7D-4A3F-80C6-C1BB26DBEA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BACA449-1F7D-4A3F-80C6-C1BB26DBEA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BACA449-1F7D-4A3F-80C6-C1BB26DBEA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05515D26-3BB2-4A8F-B65E-E7A1A194EF6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05515D26-3BB2-4A8F-B65E-E7A1A194EF6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05515D26-3BB2-4A8F-B65E-E7A1A194EF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05515D26-3BB2-4A8F-B65E-E7A1A194EF6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C228D4-F676-4663-8895-5F5D0CFCEA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C228D4-F676-4663-8895-5F5D0CFCEA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C228D4-F676-4663-8895-5F5D0CFCEA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C228D4-F676-4663-8895-5F5D0CFCEA15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05515D26-3BB2-4A8F-B65E-E7A1A194EF6F} = {BC393A41-C888-4E07-902E-86820ECDB236}
+		{33C228D4-F676-4663-8895-5F5D0CFCEA15} = {0AD43A3D-D6B6-48B5-8F6A-4A84C2E15082}
+	EndGlobalSection
+EndGlobal
