@@ -5,7 +5,7 @@ namespace Seek.Migrations._2016._09
     [Migration(MigrationId)]
     public class InitialDatabase : Migration
     {
-        public const long MigrationId = 201609160200;
+        public const long MigrationId = 201609160300;
 
         private const string SkuTableName = "Skus";
         private const string PricingTableName = "Pricing";
